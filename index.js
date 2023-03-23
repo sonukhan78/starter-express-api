@@ -7,7 +7,7 @@
 // app.listen(process.env.PORT || 5000)
 
 const express = require("express");
-const  prodect= require("./module/wishlistmodule");
+const  prodect= require("./module/profilemodule");
 const app = express();
 const cors = require("cors")
 app.use(express.json());
@@ -19,6 +19,7 @@ app.use(cors());
 app.use("/api/wishlist", require("./router/wishlistrouter"));
 app.use("/api/Addcard", require("./router/Addtocardrouter"));
 app.use("/api/Address", require("./router/Addressrouter"));
+app.use("/api/profile",require("./router/profilerouter"))
 app.get("/hii",(req,res)=>{
     res.send("Hellow")
 })
