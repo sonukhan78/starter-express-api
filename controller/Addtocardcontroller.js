@@ -46,30 +46,18 @@ const postadd = asyncHandler(async (req, res) => {
 });
 
 const deletetocard = asyncHandler(async (req, res) => {
-    let findid = await Addtocard.findById(req.params.id);
-    if (!findid) {
-        res.status(400);
-        res.send("user not found");
-    }
-    await findid.remove();
+  let findid = await Addtocard.findById(req.params._id);
+  console.log("====",findid);
+  if (!findid) {
+    res.status(400);
+    res.send("user not found");
+  }
+  const deleteresult = await Addtocard.deleteMany({ _id: findid._id})
+   res.status(200).json({ message: `delete data ${req.params._id}`});
+   console.log("=====.",deleteresult)
 
+});
 
-    res.status(200).json({ message: `delete data ${req.params.id}` });
-})
-
-// const getMe = asyncHandler(async (req, res) => {
-//   const { _id, title, price, dis, rating, image, quantity } =
-//     await User.findById(req.user.id);
-
-//   res.status(200).json({
-//     id: _id,
-//     title,
-//     price,
-//     dis,
-//     rating,
-//     image,
-//     quantity,
-//   });
-// });
+ 
 
 module.exports = { getadd, postadd,deletetocard};

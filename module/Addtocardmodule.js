@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-const addtocard = new mongoose.Schema({
+const Addtocard = new mongoose.Schema({
     title:{
         type:String,
         required:[true,"please add the title"]
@@ -40,4 +40,4 @@ const addtocard = new mongoose.Schema({
     },
 });
 
-module.exports = mongoose.model("Addcard",addtocard)
+module.exports = mongoose.model("Addcard",Addtocard)

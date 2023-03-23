@@ -9,6 +9,6 @@ const {protect}=require('../middleware/authmiddleware')
 Router.get("/",protect,getadd);
 Router.post("/",protect,postadd)
 
-Router.delete("/:id",deletetocard)
+Router.delete("/:_id",deletetocard)
 
 module.exports = Router
