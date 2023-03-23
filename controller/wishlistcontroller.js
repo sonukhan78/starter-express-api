@@ -36,9 +36,9 @@ const deletewishlist = async (req, res) => {
     res.status(400);
     res.send("user not found");
   }
-  await findid.remove();
-
-  res.status(200).json({ message: `delete data ${req.params.id}` });
+  const deleteresult = await wishlist.deleteMany({ _id: findid._id });
+  res.status(200).json({ message: `delete data ${req.params._id}` });
+  console.log("=====.", deleteresult);
 };
 
 module.exports = { get, post, deletewishlist };
