@@ -20,7 +20,7 @@ app.use("/api/wishlist", require("./router/wishlistrouter"));
 app.use("/api/Addcard", require("./router/Addtocardrouter"));
 app.use("/api/Address", require("./router/Addressrouter"));
 app.get("/hii",(req,res)=>{
-    res.send("Heloooooo")
+    res.send("Hellow")
 })
 Connectdb();
 app.listen(port, () => {

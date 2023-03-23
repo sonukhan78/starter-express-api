@@ -58,12 +58,16 @@ const postadd = asyncHandler(async (req, res) => {
 });
 
 const deleteadd = asyncHandler(async (req, res) => {
-  let findid = await Address.deleteMany(req.params.id);
+  let findid = await Address.findById(req.params._id);
+  console.log("====",findid);
   if (!findid) {
     res.status(400);
     res.send("user not found");
   }
-  res.status(200).json({ message: `delete data ${req.params.id}` });
+  const deleteresult = await Address.deleteMany({ _id: findid._id})
+   res.status(200).json({ message: `delete data ${req.params._id}`});
+   console.log("=====.",deleteresult)
+
 });
 
 module.exports = {
