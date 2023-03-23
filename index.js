@@ -17,6 +17,9 @@ const  authmiddleware  = require("./middleware/authmiddleware");
 app.use("/api/wishlist", require("./router/wishlistrouter"));
 app.use("/api/Addcard", require("./router/Addtocardrouter"));
 app.use("/api/Address", require("./router/Addressrouter"));
+app.get("/hii",(req,res)=>{
+    res.send("Heloooooo")
+})
 Connectdb();
 app.listen(port, () => {
   console.log(`port is colled${port}`);
