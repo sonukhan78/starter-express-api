@@ -2,13 +2,20 @@ const bcrypt = require("bcrypt");
 const profile = require("../module/profilemodule");
 
 const asyncHandler = require("express-async-handler");
-const { json } = require("express");
-const jwt = require("jsonwebtoken");
+ 
 
-const profileget = async (req, res) => {
-  const data = await profile.findById(req.params._id);
-  res.status(200).json(data);
-};
+const profileget = asyncHandler(async (req, res) => {
+  try {
+    const data = await profile.find(req.params._id);
+    if (!data.length) {
+      res.status(400).json({ status: false });
+    }
+    res.status(200).json({ message: data });
+    
+  } catch (error) {
+    res.status(404).json(error);
+  }
+});
 
 const profilepost = asyncHandler(async (req, res) => {
     try {

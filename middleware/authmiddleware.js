@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const asyncHandler = require("express-async-handler");
-const user = require("../module/profilemodule");
+const user = require("../module/signupmodule");
 
 const protect = asyncHandler(async (req, res, next) => {
   let token;

@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const profilesingup = new mongoose.Schema({
+const Profiledata = new mongoose.Schema({
   firstname: {
     type: String,
   },
@@ -13,4 +13,4 @@ const profilesingup = new mongoose.Schema({
   },
 
 });
-module.exports = mongoose.model("profile", profilesingup);
+module.exports = mongoose.model("profile", Profiledata);

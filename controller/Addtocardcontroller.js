@@ -1,7 +1,7 @@
 const Addtocard = require("../module/Addtocardmodule");
 const asyncHandler = require("express-async-handler");
 
-const getadd =asyncHandler( async (req, res) => {
+const getadd = asyncHandler(async (req, res) => {
   try {
     const data = await Addtocard.find({ user_id: req.user });
     if (!data.length) {
@@ -15,7 +15,8 @@ const getadd =asyncHandler( async (req, res) => {
 
 const postadd = asyncHandler(async (req, res) => {
   try {
-    const { title, image, price, rating, dis, size,color,quantity } = req.body;
+    const { title, image, price, rating, dis, size, color, quantity } =
+      req.body;
     if (
       !title &&
       !image &&
@@ -47,17 +48,14 @@ const postadd = asyncHandler(async (req, res) => {
 
 const deletetocard = asyncHandler(async (req, res) => {
   let findid = await Addtocard.findById(req.params._id);
-  console.log("====",findid);
+  console.log("====", findid);
   if (!findid) {
     res.status(400);
     res.send("user not found");
   }
-  const deleteresult = await Addtocard.deleteMany({ _id: findid._id})
-   res.status(200).json({ message: `delete data ${req.params._id}`});
-   console.log("=====.",deleteresult)
-
+  const deleteresult = await Addtocard.deleteMany({ _id: findid._id });
+  res.status(200).json({ message: `delete data ${req.params._id}` });
+  console.log("=====.", deleteresult);
 });
 
- 
-
-module.exports = { getadd, postadd,deletetocard};
+module.exports = { getadd, postadd, deletetocard };
