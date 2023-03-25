@@ -837,8 +837,9 @@ const categoriesdata = async (req, res) => {
   res.status(200).json(Categories);
 }
 const FashionSareeCollectionsdata=async (req,res)=>{
-  res.status(200).json(FashionSareeCollections)
+  res.json({status:true,data:FashionSareeCollections })
 }
+
 
 console.log("========>");
 
