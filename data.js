@@ -1,5 +1,5 @@
 const Categories = [
-  (Sarees = [
+  Sarees = [
     {
       tittle: "Sarees",
       Image:
@@ -232,8 +232,8 @@ const Categories = [
         ],
       },
     },
-  ]),
-  (Trousers = [
+  ],
+  Trousers = [
     {
       tittle: "Trousers",
       Image:
@@ -469,7 +469,7 @@ const Categories = [
       ],
     },
     ,
-  ]),
+  ],
 ];
 
 const FashionSareeCollections = [
@@ -833,7 +833,402 @@ const FashionSareeCollections = [
   },
 ];
 
+const Swaiper = [
+  {
+    title: "Sarees",
+    Image:
+      "https://dnpp799vut9mj.cloudfront.net/filters:format(webp)/dWcyiFc8FHL1DvJm98Lvv-gift.png",
+    Productlist: [
+      {
+        title: "BOLLYWOOD SAREE JI MAIDAM SUMITHA SILK COTTON",
+        Image: [
+          "https://rukminim1.flixcart.com/image/612/612/kn97te80/sari/l/d/n/free-1068-k-shaibo-saree-unstitched-original-imagfz7jpaquwduy.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/kzygpzk0/sari/b/3/p/free-2329s781-samah-unstitched-original-imagbugfqwbxpsj2.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/kzrbiq80/sari/j/4/d/free-mk-zal-cosbila-fashion-unstitched-original-imagbpgmfvx7cehu.jpeg?q=70",
+        ],
+        sellingPrice: "2399",
+        disPrice: "890",
+        disPrsent: "63%",
+        soldBy: "SHOPPEEN",
+        COD: "Available",
+        status: "In-stock",
+        quantity: "1",
+        Size: ["S", "M", "L", "XL", "XXL"],
+        ProductDetails: {
+          productcode: "SHSJMSSA707",
+          idealfor: "Women",
+          packof: "1",
+          Fabric: "Silk cotton",
+          febricCare: "Hand Wash , Machine Wash",
+        },
+      },
+    ],
+    Productlist: [
+      {
+        title: "FANCY SAREE MANTRA FALAK GEORGETTE",
+        Image: [
+          "https://rukminim1.flixcart.com/image/612/612/kv9urgw0/sari/2/x/v/free-dl-5-blue-desty-unstitched-original-imag87hgkf8zvyqq.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/kzvlua80/sari/7/s/l/free-sds0030-sadika-unstitched-original-imagbsg4na5x3gfn.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/krkyt8w0/sari/y/p/v/free-wedding-saree-ecolors-fab-unstitched-original-imag5c8efuhrjz9t.jpeg?q=70",
+        ],
+        sellingPrice: "2303",
+        disPrice: "995",
+        disPrsent: "57%",
+        soldBy: "SHOPPEEN",
+        COD: "Available",
+        status: "In-stock",
+        quantity: "1",
+        Size: ["S", "M", "L", "XL", "XXL"],
+        ProductDetails: {
+          productcode: "SHSMANFALAK1002A11",
+          idealfor: "Women",
+          packof: "1",
+          Fabric: "Georgette",
+          febricCare: "Hand Wash , Machine Wash",
+        },
+      },
+    ],
+    Productlist: [
+      {
+        title: "BOLLYWOOD SAREE JI MAIDAM FACE PRINT (MULTI COLOR)",
+        Image: [
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/sari/d/y/m/free-blstin1-blissta-unstitched-original-imaghy4a6hgghcc8.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/sari/r/v/c/free-at-kl-101-aarvi-trends-unstitched-original-imagkcdxgjsxfrv2.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/kqv8vww0/sari/w/h/i/free-mansi-saree-yellow-vajiba-unstitched-original-imag4sdzncyfvsx3.jpeg?q=70",
+        ],
+        sellingPrice: "2624",
+        disPrice: "1100",
+        disPrsent: "58%",
+        soldBy: "SHOPPEEN",
+        COD: "Available",
+        status: "In-stock",
+        quantity: "1",
+        Size: ["S", "M", "L", "XL", "XXL"],
+        ProductDetails: {
+          productcode: "SHSJMFPA716",
+          idealfor: "Women",
+          packof: "1",
+          Fabric: "Satin",
+          febricCare: "Hand Wash , Machine Wash",
+        },
+      },
+    ],
+
+    Productlist: [
+      {
+        title: "BOLLYWOOD SAREE DHRUV FASHION DF-FADDING GEORGETTE",
+        Image: [
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/sari/u/j/4/free-8101-1-kashvi-sarees-unstitched-original-imagn22qhe7wgmz7.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/sari/n/u/d/free-bfgrt145-surat4fashion-unstitched-original-imaghv4whzwz7yav.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/sari/z/t/s/free-gulab-new-saree-anjavi-fashion-unstitched-original-imag7pw9skh8hneb-bb.jpeg?q=70",
+        ],
+        sellingPrice: "2034",
+        disPrice: "1149",
+        disPrsent: "59%",
+        soldBy: "SHOPPEEN",
+        COD: "Available",
+        status: "In-stock",
+        quantity: "1",
+        Size: ["S", "M", "L", "XL", "XXL"],
+        ProductDetails: {
+          productcode: "SHSDFFADA704",
+          idealfor: "Women",
+          packof: "1",
+          Fabric: "Georgette",
+          febricCare: "Hand Wash",
+        },
+      },
+    ],
+    Productlist: [
+      {
+        title: "BOLLYWOOD SAREE DHRUV FASHION DF-3231 GEORGETTE",
+        Image: [
+          "https://rukminim1.flixcart.com/image/612/612/k4rcmfk0pkrrdj/sari/v/a/6/free-black-1466-6-pooja-fashion-1466-6-original-imafd5zbedgzeps9.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/kay9bbk0/sari/a/s/z/free-1262-5-kashvi-sarees-unstitched-original-imafsepbpnpbxgsz.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/kzd147k0/sari/y/t/f/free-neavyblue-saree-lyunica-unstitched-original-imagbe5hxufrqb5d.jpeg?q=70",
+        ],
+        sellingPrice: "2999",
+        disPrice: "1274",
+        disPrsent: "58%",
+        soldBy: "SHOPPEEN",
+        COD: "Available",
+        status: "In-stock",
+        quantity: "1",
+        Size: ["S", "M", "L", "XL", "XXL"],
+        ProductDetails: {
+          productcode: "SHSDF3231A703",
+          idealfor: "Women",
+          packof: "1",
+          Fabric: "Georgette",
+          febricCare: "Hand Wash",
+        },
+      },
+    ],
+  },
+  {
+    title: "Popcorn Pants",
+    Image:
+      "https://dnpp799vut9mj.cloudfront.net/filters:format(webp)/dWcyiFc8FHL1DvJm98Lvv-Gift_2.png",
+    Productlist: [
+      {
+        title: "POPCORN PANT PURPLE GRAPES MATT BLACK",
+        Image: [
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/r/a/b/38-eps-black-03-urbano-fashion-original-imaghkgk27whjcej.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/h/y/d/28-1-eps-black-06-urbano-fashion-original-imafumyf4fxzhduu-bb.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/kdbzqfk0/jean/q/8/3/36-mpszipjean-black-urbano-fashion-original-imafu9hqhqzyhrng.jpeg?q=70",
+        ],
+        sellingPrice: "1699",
+        disPrice: "470",
+        disPrsent: "72%",
+        soldBy: "SHOPPEEN",
+        COD: "Available",
+        status: "In-stock",
+        quantity: "1",
+        Size: [28, 30, 36, 38],
+        ProductDetails: {
+          productcode: "SHTPGPPA508",
+          idealfor: "Men",
+          packof: "1",
+          Fabric: "Lycra",
+          febricCare: "Hand Wash , Machine Wash",
+        },
+      },
+    ],
+    Productlist: [
+      {
+        title: "POPCORN PANT PURPLE GRAPES CREAM",
+        Image: [
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/trouser/l/b/v/32-kpb-67-cpslmft-crm-killer-original-imaghza3cpwfbpzu.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/kqwobrk0/trouser/e/4/b/34-dominoslycra-darkcream-13-haul-chic-original-imag4tk4e3sfvhzb.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/kzegk280/trouser/z/o/b/28-t933-merge-chex-flexi-cream-aa-ad-av-original-imagbf78fynh4jzb.jpeg?q=70",
+        ],
+        sellingPrice: "1699",
+        disPrice: "485",
+        disPrsent: "71%",
+        soldBy: "SHOPPEEN",
+        COD: "Available",
+        status: "In-stock",
+        quantity: "1",
+        Size: [28, 32, 34],
+        ProductDetails: {
+          productcode: "SHTPGPPA499",
+          idealfor: "Men",
+          packof: "1",
+          Fabric: "Lycra",
+          febricCare: "Hand Wash , Machine Wash",
+        },
+      },
+    ],
+    Productlist: [
+      {
+        title: "POPCORN PANT PURPLE GRAPES GREEN",
+        Image: [
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/trouser/g/3/g/32-pro-ss-pg-provogue-original-imaghhsbehfzduwn.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/trouser/c/a/e/36-g-1-bapasitaram-enterprise-original-imagkybyzqyqcxab.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/trouser/y/d/n/34-tpnw1-topqore-original-imagbz842hnufgxg-bb.jpeg?q=70",
+        ],
+        sellingPrice: "1549",
+        disPrice: "475",
+        disPrsent: "69%",
+        soldBy: "SHOPPEEN",
+        COD: "Available",
+        status: "In-stock",
+        quantity: "1",
+        Size: [32, 34, 36],
+        ProductDetails: {
+          productcode: "SHTPGPPA506",
+          idealfor: "Men",
+          packof: "1",
+          Fabric: "Lycra",
+          febricCare: "Hand Wash , Machine Wash",
+        },
+      },
+    ],
+    Productlist: [
+      {
+        title: "POPCORN PANT PURPLE GRAPES CEMENT",
+        Image: [
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/trouser/q/p/k/32-g-1-gaumukhi-creation-original-imaghf5haa6wdqnz.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/trouser/7/r/n/28-t-1-fashionable-village-original-imaghevjdzwr47r9.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/trouser/t/z/q/38-oldcs-medium-grey-franko-roger-original-imaghhvnybubx3d7.jpeg?q=70",
+        ],
+        sellingPrice: "1549",
+        disPrice: "509",
+        disPrsent: "67%",
+        soldBy: "SHOPPEEN",
+        COD: "Available",
+        status: "In-stock",
+        quantity: "1",
+        Size: [28, 32, 38],
+        ProductDetails: {
+          productcode: "SHTPGPPA500",
+          idealfor: "Men",
+          packof: "1",
+          Fabric: "Lycra",
+          febricCare: "Hand Wash , Machine Wash",
+        },
+      },
+    ],
+    Productlist: [
+      {
+        title: "POPCORN PANT PURPLE GRAPES WINE",
+        Image: [
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/trouser/r/p/m/30-trouser-solid-01-gaumukhi-creation-original-imaghbxye6pkbbk5.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/trouser/1/p/t/36-g-1-gaumukhi-creation-original-imaghdg7cxu7mgnv.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/trouser/r/p/m/30-trouser-solid-01-gaumukhi-creation-original-imaghbxye6pkbbk5.jpeg?q=70",
+        ],
+        sellingPrice: "1699",
+        disPrice: "485",
+        disPrsent: "71%",
+        soldBy: "SHOPPEEN",
+        COD: "Available",
+        status: "In-stock",
+        quantity: "1",
+        Size: [28, 30, 32, 34, 36],
+        ProductDetails: {
+          productcode: "SHTPGPPA507",
+          idealfor: "Men",
+          packof: "1",
+          Fabric: "Lycra",
+          febricCare: "Hand Wash , Machine Wash",
+        },
+      },
+    ],
+  },
+  {
+    title: "Jeans",
+    Image:
+      "https://dnpp799vut9mj.cloudfront.net/filters:format(webp)/dWcyiFc8FHL1DvJm98Lvv-06.jpg  ",
+    Productlist: [
+      {
+        title: "JEANS PURPLE GRAPES DENIM BLUE",
+        Image: [
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/p/g/p/32-bmw-darklevis-d-ben-martin-original-imafszrthheg5usf-bb.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/k0wqwsw0/jean/d/c/h/30-10064495-roadster-original-imafkhymuff6j95d.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/n/b/0/28-jns-light-grey-ben-martin-original-imafszrt6f9qgvym-bb.jpeg?q=70",
+        ],
+        sellingPrice: "1999",
+        disPrice: "855",
+        disPrsent: "57%",
+        soldBy: "SHOPPEEN",
+        COD: "Available",
+        status: "In-stock",
+        quantity: "1",
+        Size: [28, 30, 32, 34],
+        ProductDetails: {
+          productcode: "SHTPGJA7A442",
+          idealfor: "Men",
+          packof: "1",
+          Fabric: "Denim",
+          febricCare: "Machine Wash",
+        },
+      },
+    ],
+    Productlist: [
+      {
+        title: "JEANS PURPLE GRAPES BLACK SHADE ",
+        Image: [
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/trouser/b/z/k/36-tp4qset05blak-36-dream-makers-original-imafk5gtmhbenjhs-bb.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/j/c/o/34-word-styzon-original-imafxxnggvb4zcfb-bb.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/m/r/l/34-r-280-styzon-original-imagggzszjygbgy7.jpeg?q=70",
+        ],
+        sellingPrice: "1999",
+        disPrice: "735",
+        disPrsent: "63%",
+        soldBy: "SHOPPEEN",
+        COD: "Available",
+        status: "In-stock",
+        quantity: "1",
+        Size: [28, 30, 32, 34, 36],
+        ProductDetails: {
+          productcode: "SHTPGJA4A439",
+          idealfor: "Men",
+          packof: "1",
+          Fabric: "Denim",
+          febricCare: "Machine Wash",
+        },
+      },
+    ],
+    Productlist: [
+      {
+        title: "JEANS YES BRAND SQUARE DESIGN DENIM BLUE",
+        Image: [
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/5/r/u/38-ecskn-bb-15-lightblue-blue-buddha-original-imagh7dgydg2ztm5.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/kn4xhu80/jean/n/t/e/32-19p4l23r1145i-901-united-colors-of-benetton-original-imagfvwzsfvnkq9p.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/kbb49zk0/jean/n/b/u/36-bmw-darklevis-d-ben-martin-original-imafszrtctdhcqe2.jpeg?q=70",
+        ],
+        sellingPrice: "1999",
+        disPrice: "840",
+        disPrsent: "58%",
+        soldBy: "SHOPPEEN",
+        COD: "Available",
+        status: "In-stock",
+        quantity: "1",
+        Size: [28, 30, 32, 36, 38],
+        ProductDetails: {
+          productcode: "SHTYBJFSHDNCLA361",
+          idealfor: "Men",
+          packof: "1",
+          Fabric: "Denim",
+          febricCare: "Hand Wash , Machine Wash",
+        },
+      },
+    ],
+    Productlist: [
+      {
+        title: "JEANS YES BRAND FASHION LIGHT BLUE",
+        Image: [
+          "https://rukminim1.flixcart.com/image/612/612/jgcktjk0/jean/z/s/d/32-fmjn3949blue-flying-machine-original-imaf4huxqfkmf86j.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/n/b/0/28-jns-light-grey-ben-martin-original-imafszrt6f9qgvym-bb.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/kw6pw280/jean/l/r/6/36-hljn001959-highlander-original-imag8wwhdggkbhf6.jpeg?q=70",
+        ],
+        sellingPrice: "2399",
+        disPrice: "882",
+        disPrsent: "63%",
+        soldBy: "SHOPPEEN",
+        COD: "Available",
+        status: "In-stock",
+        quantity: "1",
+        Size: [28, 30, 32, 34, 36],
+        ProductDetails: {
+          productcode: "SHTYBJFASA392",
+          idealfor: "Men",
+          packof: "1",
+          Fabric: "Denim",
+          febricCare: "Machine Wash",
+        },
+      },
+    ],
+    Productlist: [
+      {
+        title: " JEANS YES BRAND FASHION BLUE",
+        Image: [
+          "https://rukminim1.flixcart.com/image/612/612/k41mp3k0/jean/6/b/5/40-avwhskryelstrpbwr-mblu-01-urbano-fashion-original-imafmzyghsq9gvy6.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/kj7gwi80hlty2aw-0/jean/u/r/c/34-1-avdisheavywhsk-mblu-urbano-fashion-original-imafyyahbsng4uuq.jpeg?q=70",
+          "https://rukminim1.flixcart.com/image/612/612/xif0q/jean/9/w/y/28-avdisheavywhsk-iceblu-urbano-fashion-original-imaghzq7js7tzzpg.jpeg?q=70",
+        ],
+        sellingPrice: "2399",
+        disPrice: "889",
+        disPrsent: "63%",
+        soldBy: "SHOPPEEN",
+        COD: "Available",
+        status: "In-stock",
+        quantity: "1",
+        Size: [28, 30, 34, 38, 40],
+        ProductDetails: {
+          productcode: "SHTYBJFASA394",
+          idealfor: "Men",
+          packof: "1",
+          Fabric: "Denim",
+          febricCare: "Hand Wash , Machine Wash",
+        },
+      },
+    ],
+  },
+];
+
 module.exports = {
   Categories,
   FashionSareeCollections,
+  Swaiper,
 };
