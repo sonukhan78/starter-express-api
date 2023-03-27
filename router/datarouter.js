@@ -1,7 +1,16 @@
-const express = require("express");
-const { categoriesdata ,FashionSareeCollectionsdata} = require("../data");
-const app = express();
-app.get("/", categoriesdata);
-app.get("/FSC",FashionSareeCollectionsdata)
+const express= require('express');
 
-app.listen(5000);
+const router = express.Router();
+const {Categoriesdata, FashionSareeCollectionsdata} = require('../data')
+router.use(express.json())
+
+router.get("/",(req,res)=>{
+    res.json({status:true,Categoriesdata})
+})
+    
+router.get('/FSC',(req,res)=>{
+    res.json({status:true,data:FashionSareeCollectionsdata})
+}) 
+ console.log("=====.")
+
+module.exports = router;

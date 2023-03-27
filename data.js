@@ -833,17 +833,12 @@ const FashionSareeCollections = [
   },
 ];
 
-const categoriesdata = async (req, res) => {
-  res.status(200).json(Categories);
-}
-const FashionSareeCollectionsdata=async (req,res)=>{
-  res.json({status:true,data:FashionSareeCollections })
-}
+ 
 
 
-console.log("========>");
+
 
 module.exports = {
-  categoriesdata,
-  FashionSareeCollectionsdata,
+  Categories,
+  FashionSareeCollections
 };

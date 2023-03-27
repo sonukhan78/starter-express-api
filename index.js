@@ -21,7 +21,7 @@ app.use("/api/Addcard", require("./router/Addtocardrouter"));
 app.use("/api/Address", require("./router/Addressrouter"));
 app.use("/api/profile",require("./router/profilerouter"));
 app.use("/api/signup",require("./router/signuprouter"))
-app.use ("/api/allapi",require("./router/datarouter"))
+app.use("/api/allapi",require("./router/datarouter"))
 app.get("/hii",(req,res)=>{
     res.send("Hellow")
 })
