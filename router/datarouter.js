@@ -8,7 +8,7 @@ router.get("/", (req, res) => {
   res.json({ status: true, Categories });
 });
 
-router.get("/FSC", (req, res) => {
+router.get("/fsc", (req, res) => {
   res.json({ status: true, data: FashionSareeCollections });
 });
 console.log("=====.");
