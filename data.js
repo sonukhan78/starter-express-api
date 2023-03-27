@@ -1,5 +1,5 @@
 const Categories = [
-  Sarees = [
+  (Sarees = [
     {
       tittle: "Sarees",
       Image:
@@ -232,8 +232,8 @@ const Categories = [
         ],
       },
     },
-  ],
-  Trousers = [
+  ]),
+  (Trousers = [
     {
       tittle: "Trousers",
       Image:
@@ -469,7 +469,7 @@ const Categories = [
       ],
     },
     ,
-  ],
+  ]),
 ];
 
 const FashionSareeCollections = [
@@ -833,12 +833,7 @@ const FashionSareeCollections = [
   },
 ];
 
- 
-
-
-
-
 module.exports = {
   Categories,
-  FashionSareeCollections
+  FashionSareeCollections,
 };

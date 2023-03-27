@@ -1,16 +1,16 @@
-const express= require('express');
+const express = require("express");
 
 const router = express.Router();
-const {Categoriesdata, FashionSareeCollectionsdata} = require('../data')
-router.use(express.json())
+const { Categories, FashionSareeCollections } = require("../data");
+router.use(express.json());
 
-router.get("/",(req,res)=>{
-    res.json({status:true,Categoriesdata})
-})
-    
-router.get('/FSC',(req,res)=>{
-    res.json({status:true,data:FashionSareeCollectionsdata})
-}) 
- console.log("=====.")
+router.get("/", (req, res) => {
+  res.json({ status: true, Categories });
+});
+
+router.get("/FSC", (req, res) => {
+  res.json({ status: true, data: FashionSareeCollections });
+});
+console.log("=====.");
 
 module.exports = router;
