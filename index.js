@@ -33,6 +33,9 @@ Connectdb();
 app.listen(port, () => {
   console.log(`port is colled${port}`);
 });
+app.get("/",(req,res)=>{
+  res.send("hellow")
+})
 
 app.post(
   "/create",
