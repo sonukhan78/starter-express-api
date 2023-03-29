@@ -24,6 +24,7 @@ const postpro = asyncHandler(async (req, res) => {
       number,
       gender,
       email,
+      
     });
     res.status(200).json(data);
   } catch (error) {

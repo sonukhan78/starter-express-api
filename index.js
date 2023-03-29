@@ -40,6 +40,8 @@ app.post(
   (req,res)=>{
     console.log("======nnnnn.body",req.body);
     console.log("=====>",req.files)
+    console.log("====>")
     res.json({message:"Images added..",Images:'http://localhost:6000/uploads/Images/profile/${req.files{0}.filename}'})
+    
   }
 )
