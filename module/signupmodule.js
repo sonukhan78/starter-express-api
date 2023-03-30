@@ -1,25 +1,11 @@
-const mongoose = require("mongoose");
-const sign = new mongoose.Schema({
-  firstname: {
-    type: String,
-  },
+const mongoose = require('mongoose');
 
-  lastname: {
-    type: String,
-  },
-
-  gender: {
-    type: String,
-  },
-  email:{
-    type:String,
-  },
-  password:{
-    type:String,
-  },
-  Otp:{
-    type:Number,
-  }
-
+const signup = new mongoose.Schema({
+    firstname:{type:String},
+    lastname:{type:String},
+    email:{type:String},
+    password:{type:String},
+    gender:{type:String}
 });
-module.exports = mongoose.model("signup", sign);
+
+module.exports = mongoose.model('sign-up',signup);

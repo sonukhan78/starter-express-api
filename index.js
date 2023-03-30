@@ -23,9 +23,10 @@ app.use("/api/wishlist", require("./router/wishlistrouter"));
 app.use("/api/Addcard", require("./router/Addtocardrouter"));
 app.use("/api/Address", require("./router/Addressrouter"));
 app.use("/api/profile", require("./router/profilerouter"));
-app.use("/api/signup", require("./router/signuprouter"));
+app.use("/api/sign-up", require("./router/signuprouter"));
 app.use("/api/allapi", require("./router/datarouter"));
 app.use("/api/userprofile",require("././router/profilerouter/Profilerouter2"))
+app.use("/api/intialetask",require("././router/intialeTaskrouter/intialerouter"))
 app.get("/hii", (req, res) => {
   res.send("Hellow");
 });
@@ -33,7 +34,7 @@ Connectdb();
 app.listen(port, () => {
   console.log(`port is colled${port}`);
 });
-app.get("/",(req,res)=>{
+app.get("/ab",(req,res)=>{
   res.send("hellow")
 })
 

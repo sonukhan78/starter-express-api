@@ -1,12 +1,10 @@
-const express=require('express');
-const app=express();
-const Router = express.Router();
-const { getsign, postsign, deletesign } = require('../controller/signupcontroller');
-const { protect } = require('../middleware/authmiddleware');
-Router.use(express.json())
-Router.get("/",protect,getsign);
-Router.post("/",protect,postsign);
-Router.delete("/:_id",protect,deletesign) 
+const express = require('express');
+const router = express.Router();
+router.use(express.json());
 
+const { postsignup, LoginUser} = require('../controller/signupcontroller')
 
-module.exports = Router;
+router.post('/',postsignup)
+router.post('/',LoginUser)
+
+module.exports = router
