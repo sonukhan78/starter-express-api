@@ -1,15 +1,7 @@
 const express = require("express");
-const app = express();
 const Router = express.Router();
-const {
-  getintiale,
-  postintiale,
-  deleteintiale,
-} = require("../../controller/IntialeTaskcontroller/intialecontroller");
-
-const {
-  protect,
-} = require("../../middleware/intialemiddleware/intialemiddleware");
+const app = express();
+const {getintiale,postintiale,deleteintiale,} = require("../../controller/IntialeTaskcontroller/intialecontroller");
 Router.use(express.json());
 Router.get("/", getintiale);
 Router.post("/", postintiale);

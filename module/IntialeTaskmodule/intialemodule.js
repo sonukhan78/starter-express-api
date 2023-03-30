@@ -7,9 +7,7 @@ const Intiale = new mongoose.Schema({
   dis: {
     type: String,
   },
-  use_id:{
-    type:String
-  }
+ 
  },
  { timestamps: true }
 

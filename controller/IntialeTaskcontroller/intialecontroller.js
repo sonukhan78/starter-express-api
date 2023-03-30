@@ -1,5 +1,4 @@
-const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken")
+const jwt = require("jsonwebtoken");
 const Intiale = require("../../module/IntialeTaskmodule/intialemodule");
 const asyncHandler = require("express-async-handler");
 
@@ -10,7 +9,7 @@ const getintiale = asyncHandler(async (req, res) => {
   }
   res.status(200).json({ message: data });
 
-  res.status(404).json(error);
+  // res.status(404).json(error);
 });
 
 const postintiale = asyncHandler(async (req, res) => {
@@ -21,22 +20,20 @@ const postintiale = asyncHandler(async (req, res) => {
   const data = await Intiale.create({
     tittle,
     dis,
-    user_id: req.user,
   });
 
-  res.status(201).json({
-    tittle:data.tittle,
-    dis:data.dis,
-    token: generateToken(data._id),
-
-  })
+  // res.status(201).json({
+  //   tittle: data.tittle,
+  //   dis: data.dis,
+  //  // token: generateToken(data._id),
+  // });
   res.status(200).json(data);
 });
-const generateToken = (id) => {
-  return jwt.sign({ id }, process.env.JWT_SECRET, {
-    expiresIn: "30d",
-  });
-};
+// const generateToken = (id) => {
+//   return jwt.sign({ id }, process.env.JWT_SECRET, {
+//     expiresIn: "30d",
+//   });
+// };
 
 const deleteintiale = asyncHandler(async (req, res) => {
   let findid = await Intiale.findById(req.params._id);
