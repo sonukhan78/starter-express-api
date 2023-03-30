@@ -27,6 +27,7 @@ app.use("/api/sign-up", require("./router/signuprouter"));
 app.use("/api/allapi", require("./router/datarouter"));
 app.use("/api/userprofile",require("././router/profilerouter/Profilerouter2"))
 app.use("/api/intialetask",require("././router/intialeTaskrouter/intialerouter"))
+app.use("/api/Todotask",require("./router/intialeTaskrouter/Todorouter"))
 app.get("/hii", (req, res) => {
   res.send("Hellow");
 });
