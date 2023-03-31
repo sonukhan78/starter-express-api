@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const Todo = require("../../module/IntialeTaskmodule/Todomodule");
+const Todo = require("../../module/intialeTaskmodule/Todomodule");
 const asyncHandler = require("express-async-handler");
 
 const getTodo = async(req,res)=>{

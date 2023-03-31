@@ -2,7 +2,7 @@ const express = require("express");
 const Router = express.Router();
 const app = express();
 const protect = require('../../middleware/intialemiddleware/Doingmiddleware')
-const { getDoing, postDoing, deleteDoing } = require("../../controller/IntialeTaskcontroller/Doingcontroller");
+const { getDoing, postDoing, deleteDoing } = require("../../controller/intialeTaskcontroller/Doingcontroller");
 
 
 Router.use(express.json());

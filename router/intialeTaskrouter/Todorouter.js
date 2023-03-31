@@ -3,7 +3,7 @@ const Router = express.Router();
 const app = express();
  
 const protect=require("../../middleware/intialemiddleware/Todomiddleware")
-const { getTodo, postTodo, deleteTodo } = require("../../controller/IntialeTaskcontroller/Todocontroller");
+const { getTodo, postTodo, deleteTodo } = require("../../controller/intialeTaskcontroller/Todocontroller");
 Router.use(express.json());
 Router.get("/get",protect,getTodo);
 Router.post("/add",protect,postTodo);

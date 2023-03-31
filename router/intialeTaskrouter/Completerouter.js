@@ -6,7 +6,7 @@ const {
   getcomplete,
   postcomplete,
   deletecomplete,
-} = require("../../controller/IntialeTaskcontroller/Completecontroller");
+} = require("../../controller/intialeTaskcontroller/Completecontroller");
 Router.use(express.json());
 Router.get("/get", protect, getcomplete);
 Router.post("/add", protect, postcomplete);
