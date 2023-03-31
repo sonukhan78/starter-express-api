@@ -33,6 +33,7 @@ const deleteintiale = asyncHandler(async (req, res) => {
   if (!findid) {
     res.status(400);
     res.send("user not found");
+    console.log("======");
   }
   const deletetask = await Intiale.deleteMany({ _id: findid._id });
   res.status(200).json({ message: `delete data ${req.params._id}` });
