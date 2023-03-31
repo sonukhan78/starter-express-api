@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Doing = new mongoose.Schema(
+const Complete = new mongoose.Schema(
   {
     title: {
       type: String,
@@ -15,4 +15,4 @@ const Doing = new mongoose.Schema(
 
   { timestamps: true }
 );
-module.exports = mongoose.model("Doingtask", Doing);
+module.exports = mongoose.model("Completetask", Complete);

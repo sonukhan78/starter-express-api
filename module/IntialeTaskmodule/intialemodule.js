@@ -1,12 +1,16 @@
 const mongoose = require("mongoose");
 const Intiale = new mongoose.Schema({
-  tittle: {
+  title: {
     type: String,
   },
 
   dis: {
     type: String,
   },
+  user_id:{
+    type:String
+  }
+
  
  },
  { timestamps: true }
