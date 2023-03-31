@@ -8,8 +8,8 @@ const {
   deletecomplete,
 } = require("../../controller/IntialeTaskcontroller/Completecontroller");
 Router.use(express.json());
-Router.get("/", protect, getcomplete);
-Router.post("/", protect, postcomplete);
+Router.get("/get", protect, getcomplete);
+Router.post("/add", protect, postcomplete);
 Router.delete("/:_id", protect, deletecomplete);
 
 module.exports = Router;
