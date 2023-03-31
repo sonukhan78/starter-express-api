@@ -22,6 +22,7 @@ const postcomplete = async (req, res) => {
     dis,
     user_id: req.user,
   });
+  console.log("=======>")
   console.log("====>", data);
   res.status(200).json(data);
 };
