@@ -23,6 +23,7 @@ const getintiale = async(req,res)=>{
         user_id:req.user,
         
     });
+    console.log("=======")
     console.log("====>", data); 
     res.status(200).json(data)
   }
