@@ -1,19 +1,17 @@
 const mongoose = require("mongoose");
-const Intiale = new mongoose.Schema({
-  title: {
-    type: String,
+const Intiale = new mongoose.Schema(
+  {
+    title: {
+      type: String,
+    },
+
+    dis: {
+      type: String,
+    },
+    user_id: {
+      type: String,
+    },
   },
-
-  dis: {
-    type: String,
-  },
-  user_id:{
-    type:String
-  }
-
- 
- },
- { timestamps: true }
-
+  { timestamps: true }
 );
-module.exports = mongoose.model("intialetask",Intiale);
+module.exports = mongoose.model("intialetask", Intiale);
