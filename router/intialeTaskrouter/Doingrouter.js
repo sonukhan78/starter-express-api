@@ -6,8 +6,8 @@ const { getDoing, postDoing, deleteDoing } = require("../../controller/IntialeTa
 
 
 Router.use(express.json());
-Router.get("/",protect, getDoing);
-Router.post("/",protect, postDoing);
+Router.get("/get",protect, getDoing);
+Router.post("/add",protect, postDoing);
 Router.delete("/:_id",protect, deleteDoing);
 
 module.exports = Router;
