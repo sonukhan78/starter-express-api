@@ -1,9 +1,9 @@
 const jwt = require("jsonwebtoken");
-const Intiale = require("../../module/intialeTaskmodule/intialemodule");
+const intiale = require("../../module/intialeTaskmodule/intialemodule");
 const asyncHandler = require("express-async-handler");
 
 const getintiale = async (req, res) => {
-  let data = await Intiale.find({ user_id: req.user });
+  let data = await intiale.find({ user_id: req.user });
 
   if (!data.length) {
     res.status(200).json({ status: false, massage: "intiale stage is empty" });
@@ -17,7 +17,7 @@ const postintiale = async (req, res) => {
   if (!title || !dis) {
     res.status(400).json({ message: "Please add all Filed" });
   }
-  let data = await Intiale.create({
+  let data = await intiale.create({
     title,
     dis,
     user_id: req.user,
@@ -27,14 +27,14 @@ const postintiale = async (req, res) => {
 };
 
 const deleteintiale = asyncHandler(async (req, res) => {
-  let findid = await Intiale.findById(req.params._id);
+  let findid = await intiale.findById(req.params._id);
   console.log("====", findid);
   if (!findid) {
     res.status(400);
     res.send("user not found");
     console.log("======");
   }
-  const deletetask = await Intiale.deleteMany({ _id: findid._id });
+  const deletetask = await intiale.deleteMany({ _id: findid._id });
   res.status(200).json({ message: `delete data ${req.params._id}` });
   console.log("=====.", deletetask);
 });

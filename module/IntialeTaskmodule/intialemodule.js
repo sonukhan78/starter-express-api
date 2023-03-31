@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Intiale = new mongoose.Schema(
+const intiale = new mongoose.Schema(
   {
     title: {
       type: String,
@@ -14,4 +14,4 @@ const Intiale = new mongoose.Schema(
   },
   { timestamps: true }
 );
-module.exports = mongoose.model("intialetask", Intiale);
+module.exports = mongoose.model("intialetask", intiale);
