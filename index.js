@@ -26,7 +26,7 @@ app.use("/api/profile", require("./router/profilerouter"));
 app.use("/api/sign-up", require("./router/signuprouter"));
 app.use("/api/allapi", require("./router/datarouter"));
 app.use("/api/userprofile",require("././router/profilerouter/Profilerouter2"))
-app.use("/api/intialetask",require("././router/intialeTaskrouter/intialerouter"))
+app.use("/api/intialetask",require("./router/intialeTaskrouter/intialerouter"))
 app.use("/api/Todotask",require("././router/intialeTaskrouter/Todorouter"))
 app.use("/api/Doingtask",require("././router/intialeTaskrouter/Doingrouter"))
 app.use("/api/Completetask",require("././router/intialeTaskrouter/Completerouter"))
