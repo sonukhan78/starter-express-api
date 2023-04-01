@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken")
 const bcrypt = require('bcryptjs');
 const mongodb = require('mongodb');
-const doing = require('../../model/intialeModel/DoingModel');
+const doing = require('../../module/IntialeTaskmodule/Doingmodules');
 const asyncHandler = require('express-async-handler');
 
 
